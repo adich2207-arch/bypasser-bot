@@ -150,7 +150,7 @@ async def balance(message: Message):
 @dp.message(Command("refer"))
 async def refer(message: Message):
     user_id = message.from_user.id
-    bot_username = "YOUR_BOT_USERNAME"
+    bot_username = "Link_Bypasser4u_bot"
 
     link = f"https://t.me/{bot_username}?start={user_id}"
 
